@@ -1,0 +1,21 @@
+{
+  "name": "server-analyzer-be",
+  "version": "1.0.0",
+  "description": "Simple Express backend for Parallel Server Log Analyzer using Node.js Worker Threads",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "generate": "node src/generateLogs.js",
+    "sequential": "node src/sequentialAnalyzer.js",
+    "parallel": "node src/parallelAnalyzer.js",
+    "benchmark": "node src/benchmark.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

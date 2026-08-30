@@ -1,0 +1,38 @@
+[
+  {
+    "workers": 1,
+    "sequentialTimeMs": 44.238791,
+    "processingTimeMs": 56.89195899999999,
+    "mergeTimeMs": 0.015625,
+    "totalParallelTimeMs": 56.908375,
+    "speedup": 0.7773687264835799,
+    "efficiency": 0.7773687264835799
+  },
+  {
+    "workers": 2,
+    "sequentialTimeMs": 44.238791,
+    "processingTimeMs": 35.86004200000001,
+    "mergeTimeMs": 0.1318339999999978,
+    "totalParallelTimeMs": 35.99295799999999,
+    "speedup": 1.2290957303370291,
+    "efficiency": 0.6145478651685146
+  },
+  {
+    "workers": 4,
+    "sequentialTimeMs": 44.238791,
+    "processingTimeMs": 30.419250000000005,
+    "mergeTimeMs": 0.1561670000000106,
+    "totalParallelTimeMs": 30.575999999999993,
+    "speedup": 1.4468469060701206,
+    "efficiency": 0.36171172651753014
+  },
+  {
+    "workers": 8,
+    "sequentialTimeMs": 44.238791,
+    "processingTimeMs": 40.46875,
+    "mergeTimeMs": 0.29195799999999394,
+    "totalParallelTimeMs": 40.76162500000001,
+    "speedup": 1.085304891549343,
+    "efficiency": 0.13566311144366788
+  }
+]
